@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 7rem;
+
+  background: #686761;
+}
+
+h2 {
+  font-size: 25px;
+  margin-left: 23rem;
+  color: #67190f;
+  background: #b7b3a2;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 2px solid #bb0b04;
+  border-radius: 16px;
+}
+
+.title-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title-button a {
+  margin-left: 13rem;
+  height: 2.5rem;
+  background: #f16c4d;
+  border-radius: 18px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 2px solid #bb0b04;
+  text-decoration: none;
+  color: #67190f;
+  padding-top: 0.3rem;
+  font-size: 18px;
+  text-shadow: 0 0 0.5px;
+}
+
+section {
+  width: 66rem;
+  /* margin-left: 7rem; */
+}
+
+fieldset {
+  background: #b7b3a2;
+  border: 2px solid #bb0b04;
+  border-radius: 18px;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.buttons input {
+  background: #f16c4d;
+  border: 2px solid #bb0b04;
+  color: #67190f;
+  border-radius: 18px;
+  font-size: 15px;
+  text-shadow: 0 0 0.5px;
+  height: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.reset {
+  background: #f16c4d;
+  border: 2px solid #bb0b04;
+  color: #67190f;
+  border-radius: 18px;
+  font-size: 15px;
+  text-shadow: 0 0 0.5px;
+  height: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: 53rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+.empty {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 0 0 0.5px;
+  display: none;
+}
+
+.emptyMess {
+  display: block;
+}
+
+.container {
+  border: 2px solid #bb0b04;
+  border-radius: 13px;
+  background: white;
+  margin-right: 2rem;
+}
+
+.taskDes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid #bb0b04;
+  border-radius: 13px;
+  background: #b7b3a2;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.taskDes:hover {
+  background: #686761;
+}
+
+.taskDes h4 {
+  margin-left: 2rem;
+  margin-right: 3rem;
+  width: 24rem;
+  font-size: 17px;
+
+}
+
+.taskDes p {
+  font-size: 18px;
+  margin-right: 2rem;
+  white-space: pre-line;
+}
+
+.selectedTask {
+  background: #f16c4d;
+}
+
+.deleteTask{
+  display: none;
+}

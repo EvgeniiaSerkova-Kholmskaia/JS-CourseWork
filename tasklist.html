@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru" >
+  <head>
+    <meta charset="utf-8">
+    <title>Tasks List</title>
+    <link rel="stylesheet" href="css/tasklist.css">
+    <script src="js/library/jquery-3.5.1.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <div class="title-button">
+      <h2>Список задач</h2>
+      <a href="add.html">Добавить новую задачу</a>
+    </div>
+    <section>
+      <fieldset>
+        <div class="buttons">
+          <input type="button" id="newtasks" name="newtasks" value="Дата: по убыванию / по возрастанию">
+        </div>
+
+        <div class="container">
+          <div id="tasks" class="tasks">
+          </div>
+        </div>
+        <div class="empty">
+          <span>Список ваших задач пуст</span>
+        </div>
+      </fieldset>
+    </section>
+    <input class="reset" type="reset" value="Удалить запись">
+
+    <script src="js/tasklist.js" charset="utf-8"></script>
+  </body>
+</html>

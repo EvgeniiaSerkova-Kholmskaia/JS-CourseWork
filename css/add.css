@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 2rem;
+  background: #686761;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 25px;
+  margin-left: 15rem;
+  color: #67190f;
+  background: #b7b3a2;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 2px solid #bb0b04;
+  border-radius: 16px;
+}
+
+section {
+  margin-left: 21rem;
+}
+
+form {
+  width: 35rem;
+}
+
+.title-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.title-button a {
+  margin-left: 13rem;
+  height: 2.5rem;
+  background: #f16c4d;
+  border-radius: 18px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 2px solid #bb0b04;
+  text-decoration: none;
+  color: #67190f;
+  padding-top: 0.3rem;
+  font-size: 18px;
+  text-shadow: 0 0 0.5px;
+}
+
+.formdesign {
+  background: #b7b3a2;
+  font-size: 20px;
+  border: 2px solid #bb0b04;
+  border-radius: 18px;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.legendDes {
+  background: #b7b3a2;
+  border: 2px solid #bb0b04;
+  font-size: 20px;
+  text-shadow: 0 0 1px;
+  margin-left: 1rem;
+  border-radius: 7px;
+  height: 2rem;
+  color: #67190f;
+}
+
+.titleTask {
+  margin-bottom: 1.5rem;
+}
+
+.titleTask input {
+  border: 2px solid #bb0b04;
+  border-radius: 3px;
+  width: 18rem;
+  height: 2rem;
+}
+
+.descriptionTask {
+  display: flex;
+  align-items: baseline;
+}
+
+.descriptionTask textarea {
+  border: 2px solid #bb0b04;
+  border-radius: 3px;
+  margin-left: 5px;
+  height: 5rem;
+  width: 18rem;
+}
+
+.addpartner {
+  background: #f16c4d;
+  border: 2px solid #bb0b04;
+  color: #67190f;
+  border-radius: 18px;
+  font-size: 15px;
+  text-shadow: 0 0 0.5px;
+  height: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.addtask {
+  background: #f16c4d;
+  border: 2px solid #bb0b04;
+  color: #67190f;
+  border-radius: 18px;
+  font-size: 15px;
+  text-shadow: 0 0 0.5px;
+  height: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-left: 7rem;
+  cursor: pointer;
+}
+
+.calendar {
+  margin-bottom: 2rem;
+}
+
+.calendar input {
+  border: 2px solid #bb0b04;
+  border-radius: 3px;
+}
+
+.reset {
+  background: #f16c4d;
+  border: 2px solid #bb0b04;
+  color: #67190f;
+  border-radius: 18px;
+  font-size: 15px;
+  text-shadow: 0 0 0.5px;
+  height: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.partners {
+  margin-left: 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border: 2px solid #bb0b04;
+  border-radius: 3px;
+}
+
+.partners-block{
+  display: none;
+}
+
+span {
+  font-size: 13px;
+  margin-left: 8rem;
+}
+
+.descr {
+  margin-bottom: 1rem;
+}
+
+ h4 {
+  margin-top: 0;
+}
+
+.yesAdd {
+  display: none;
+}
+
+.dispNone {
+  display: none;
+}

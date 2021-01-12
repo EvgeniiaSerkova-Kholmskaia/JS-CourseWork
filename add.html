@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Add task</title>
+    <link rel="stylesheet" href="css/add.css">
+    <script src="js/library/jquery-3.5.1.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+
+    <div class="title-button">
+      <h2>Добавить задачу</h2>
+      <a href="tasklist.html">Просмотреть список задач</a>
+    </div>
+    <section>
+      <form action="#" method="post" class="formValidation">
+        <fieldset class="formdesign">
+          <legend class="legendDes">Введите данные:</legend>
+          <div class="titleTask">
+            <label for="title">Название:</label>
+            <input id="title" class="title" type="text" name="title" required>
+            <span id="title-error"></span>
+          </div>
+          <div class="descr">
+            <div class="descriptionTask">
+              <label for="description">Описание:</label>
+              <textarea name="description" class="description" id="description" required minlength="6"></textarea>
+            </div>
+            <span id="description-error"></span>
+          </div>
+          <div class="calendar">
+            <label for="calendar">Выберите дату:</label>
+            <input id="calendar" class="calendarDate" type="date" name="calendar" required>
+          </div>
+          <div class="addpartners">
+            <input class="addpartner" type="button" value="Добавить участников">
+            <input type="text" name="partners" id="partners" class="partners partners-block" placeholder="введите имена через запятую">
+          </div>
+
+          <div class="yesAdd">
+            <h4>Задача добавлена в список задач.</h4>
+          </div>
+
+          <div class="buttons">
+            <input class="reset" type="reset" value="Очистить">
+            <input class="addtask" type="submit" name="" value="Добавить задачу в список">
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <script src="js/add.js" charset="utf-8"></script>
+  </body>
+</html>
